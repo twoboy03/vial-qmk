@@ -28,7 +28,7 @@
 
 #ifdef POINTING_DEVICE_ENABLE
 #    ifndef KEYBALL_MINIMUM_DEFAULT_DPI
-#        define KEYBALL_MINIMUM_DEFAULT_DPI 400
+#        define KEYBALL_MINIMUM_DEFAULT_DPI 600
 #    endif // KEYBALL_MINIMUM_DEFAULT_DPI
 
 #    ifndef KEYBALL_DEFAULT_DPI_CONFIG_STEP
@@ -185,8 +185,8 @@ void keyball_set_pointer_dragscroll_enabled(bool enable) {
 static void pointing_device_task_keyball(report_mouse_t* mouse_report) {
     static int16_t scroll_buffer_x = 0;
     static int16_t scroll_buffer_y = 0;
-    mouse_report->x *= -1;
-    mouse_report->y *= -1;
+//    mouse_report->x *= -1;
+//    mouse_report->y *= -1;
     if (g_keyball_config.is_dragscroll_enabled) {
 #    ifdef KEYBALL_DRAGSCROLL_REVERSE_X
         scroll_buffer_x -= mouse_report->x;
