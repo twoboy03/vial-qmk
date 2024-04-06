@@ -11,5 +11,39 @@
             [{"x":2.25},"3,0","3,2","3,3","3,4",{"x":2},"3,6","3,7"],
             [{"x":2.75},"3,1"]            
         ]
-    }    
+    },
+    "customKeycodes": [
+        {"name": "POINTER_DEFAULT_DPI_FORWARD",
+         "title": "Increase default DPI",
+         "shortName": "DPI_MOD"
+        },
+        {"name": "POINTER_DEFAULT_DPI_REVERSE",
+         "title": "Decrease default DPI",
+         "shortName": "DPI_RMOD"
+        },
+        {"name": "POINTER_SNIPING_DPI_FORWARD",
+         "title": "Increase sniping DPI",
+         "shortName": "S_D_MOD"
+        },
+        {"name": "POINTER_SNIPING_DPI_REVERSE",
+         "title": "Decrease sniping DPI",
+         "shortName": "S_D_RMOD"
+        },
+        {"name": "SNIPING_MODE",
+         "title": "Hold for sniping mode",
+         "shortName": "SNIPING"
+        },
+        {"name": "SNIPING_MODE_TOGGLE",
+         "title": "Toggle sniping mode",
+         "shortName": "SNP_TOG"
+        },
+        {"name": "DRAGSCROLL_MODE",
+         "title": "Hold for drag scroll mode",
+         "shortName": "DRGSCRL"
+        },
+        {"name": "DRAGSCROLL_MODE_TOGGLE",
+         "title": "Toggle drag scroll mode",
+         "shortName": "DRG_TOG"
+        }
+    ]
 }
